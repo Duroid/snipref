@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>item-list</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet"> -->
+    <link rel="stylesheet" href="/css/Utility.css" />
+    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="/css/Main.css" />
+    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="/css/Themes.css" />
+  </head>
+
+  <style>
+    .item-list {
+      display: flex;
+      flex-direction: column;
+      /* border: 2px solid white */
+      width: 100%;
+    }
+
+    .list-item {
+      display: flex;
+      justify-content: space-between;
+      margin: 5px;
+      height: 60px;
+      width: 50vw;
+      padding-left: 20px;
+    }
+
+    .group-item {
+      display: flex;
+      justify-content: space-between;
+      margin: 5px;
+      height: 60px;
+      width: 50vw;
+    }
+
+    .list-item .flex-container {
+      margin: 0px;
+    }
+
+    .group-item .flex-container{
+      margin: 0px;
+    }
+  </style>
+
+  <body class="bg1">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <div class="test-list">
+      <div class="item-list color1 items-separate-bottom">
+        <div class="group-item hover-basic">
+          <div class="flex-container flex-vertical x1-items">
+            <h2>Group item</h2>
+            <p>test desc</p>
+          </div>
+     
+        </div>
+        <div class="list-item hover-basic">
+          <div class="flex-container flex-vertical x1-items">
+            <h2>Backupy DB</h2>
+            <p>test desc</p>
+          </div>
+          <div class="flex-container flex-vertical x1-items">
+            <p>status1</p>
+            <p>status2</p>
+            <!-- <p>status2</p> -->
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="flex-container flex-vertical x1-items">
+            <h2>Projekty</h2>
+            <p>test desc</p>
+          </div>
+          <div class="flex-container flex-vertical x1-items">
+            <p>status1</p>
+            <p>status2</p>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="flex-container flex-vertical x1-items">
+            <h2>Archiwa</h2>
+            <p>test desc</p>
+          </div>
+          <div class="flex-container flex-vertical x1-items">
+            <p>status1</p>
+            <p>status2</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="" async defer></script>
+  </body>
+</html>
