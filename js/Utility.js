@@ -1,5 +1,5 @@
 const proto = Object.getPrototypeOf;
 const setProto = Object.setPrototypeOf;
-export const extend = setProto;
-export const virtual = proto;
-export const override = proto;
+export const uextend = setProto;
+export const uvirtual = proto;
+export const uoverride = proto;
